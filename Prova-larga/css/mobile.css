@@ -1,0 +1,116 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    background-image: url(ima);
+text-align: center;
+width: 100%;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #25a2c3;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+h1{font-size: 2em;}
+
+
+/*************************************************HEADER********************************************************************************/
+header {
+    background-color: black;}
+   header picture img{padding: 3em;} 
+#intro{ background-image: url(/Prova-larga/images/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+
+padding: 2em;
+}
+
+
+
+#selettore{background-color: #f04c2f ;
+    font-family: "Montserrat", sans-serif;
+   font-weight: bold;
+  
+  display: inline-block;
+  background-color:#e22d0e;
+  padding: 1em;
+  border-radius: 5px;
+  margin-top: 2em;
+
+}
+#selettore a{color: white;
+text-decoration: none;}
+#selettore a:hover{color: yellow;}
+
+
+
+
+
+
+
+
+/*******************************************************MAIN**************************************************************************/
+
+
+
+
+main{background-color: white;
+text-align: center;
+padding-top: 2em;
+padding-bottom: 3em;
+
+}
+
+
+#img-tonda img{border-radius: 100%;
+}
+.testi{margin: 2em;}
+
+
+
+/*******************************************************TRAFILETTO ROSSO**************************************************************************/
+#termine{color: white;
+    background-color:#e22d0e ;
+padding: 2em;}
+   
+   
+    #termine h1{color: white;
+    margin-bottom: 1em;}
+#titoli-spec{margin: 1em;}
+strong{font-size: 2em;}
+
+
+/*******************************************************CORRELATI**************************************************************************/
+
+.correlati picture img{width: 100%;}
+
+.correlati{
+    border: solid 1px #dee1e3;
+    margin: 2em;
+    border-radius: 0 0 5px 5px;
+}
+.correlati h2{margin: 1em 1em 0em;}
+.correlati p{ margin: 1em 1em 1.5em;}
+
+/**********************************************************FOOTER***********************************************************************/
+footer{padding: 2em;
+    
+    background-color: #25a2c3;
+}
+footer address li a{color: #c8e7f0}
+footer h1 {color: white;
+padding: 0.5em;}
+footer p{color: #c8e7f0;
+margin-top: 2em;}
+#linea{width: 50%;}
+footer ul{list-style: none;}
+footer{text-align: center;}
+#speciale-l{
+    text-underline-offset: 2em;
+}
